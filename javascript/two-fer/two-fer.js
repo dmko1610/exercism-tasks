@@ -1,4 +1,4 @@
-export const twoFer = function(name) {
+export const twoFer = function (name) {
     const nameText = name || 'you';
     return `One for ${nameText}, one for me.`;
 };
