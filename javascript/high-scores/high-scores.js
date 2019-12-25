@@ -11,11 +11,11 @@ export class HighScores {
   }
 
   get personalBest() {
-    return Math.max(...this._scores)
+    return Math.max(...this._scores);
   }
 
   get personalTopThree() {
-    return this._scores.sort((a, b) => b - a).slice(0, 3)
+    return this._scores.sort((a, b) => b - a).slice(0, 3);
   }
 }
 
