@@ -12,10 +12,8 @@ export default class GradeSchool {
   }
 
   grade(grade) {
-    return Array.from((this._students[grade] && this._students[grade].sort()) || []);
+    return Array.from(
+      (this._students[grade] && this._students[grade].sort()) || []
+    );
   }
 }
-
-let school = new GradeSchool();
-
-console.log(school.grade(1));
