@@ -7,3 +7,8 @@
 /typescript/yarn.lock
 /typescript/*/node_modules
 /typescript/*/yarn.lock
+/dart/*/.dart_tool
+/dart/*/.packages
+/dart/*/pubspec.lock
+/dart/*/pubspec.lock
+
