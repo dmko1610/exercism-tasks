@@ -6,3 +6,4 @@
 /typescript/package-lock.json
 /typescript/yarn.lock
 /typescript/*/node_modules
+/typescript/*/yarn.lock
